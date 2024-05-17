@@ -1,0 +1,78 @@
+/* Ajustes generales */
+html {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    --opacidad-negro: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("fondo.png");
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    height: 200px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.boton-descarga {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sección de imágenes */
+.seccion-imagenes {
+    display: block;
+    padding: 20px;
+}
+
+.imagen-izquierda,
+.imagen-derecha {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.imagen-izquierda img {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    height: auto;
+}
+
+.imagen-derecha img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
