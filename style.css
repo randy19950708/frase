@@ -15,7 +15,8 @@ body {
 }
 
 header {
-    background: red;
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("fondo.png");
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,6 +40,13 @@ header .descargas {
     height: 100%;
 }
 
+header .descargas p {
+    display: block;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+}
+
 header .descargas a {
     display: block;
     padding: 10px;
@@ -60,69 +68,54 @@ header .descargas a:hover {
 header .descargas span {
     display: block;
     margin: 0.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     text-align: center;
     font-size: 0.8em;
     color: white;
 }
 
-/* 
 .container {
-    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        display: none;
-    }
+.container img {
+    max-width: 100%;
+    height: auto;
 }
 
-.logo {
-    display: inline-block;
-    height: 200px;
+.container .imagen-izquierda p {
+    text-align: left;
+    margin-top: 10px;
 }
 
-.logo img {
-    height: 100%;
-}
-
-.boton-descarga {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.imagen-izquierda,
-.imagen-derecha {
-    width: 50%;
+.container .imagen-centro p {
     text-align: center;
-    margin-bottom: 20px;
-    display: flex;
+    margin-top: 10px;
 }
 
-.imagen-izquierda img {
-    float: left;
-    margin-right: 20px;
-    max-width: 200px;
-    height: auto;
+.container .imagen-derecha p {
+    text-align: right;
+    margin-top: 10px;
 }
-
-.imagen-derecha img {
-    float: right;
-    margin-left: 20px;
-    max-width: 200px;
-    height: auto;
-}
-*/
 
 /* Footer */
-/* footer {
+footer {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     padding: 10px;
-}  */
+}
+
+/* Estilos para escritorio */
+@media screen and (min-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container .imagen {
+        padding: 2em;
+    }
+}
