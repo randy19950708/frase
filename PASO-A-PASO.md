@@ -2,6 +2,11 @@
 * Tener una cuenta de Github (https://www.github.com)
 * Tener una cuenta de TensorArt (https://tensor.art/)
 
+# Editar index.html
+1. Cambiar los lugares donde dice "Argentum Online" por el nombre de tu server.
+2. Quitar los comentarios entre <!-- y !--> para las lineas que se quieran habilitar.
+3. Añadir en "enlace-de-descarga" el link de descarga.
+
 # Recursos
 
 ## Crear logo
@@ -35,3 +40,6 @@ NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo
 * Con el juego abierto, presionar las teclas ALT+IMP SCR.
 * Ir a Paint u otro programa de imagenes y Pegar.
 * Guardar la imagen en donde corresponda (imagen1.png, imagen2.png, imagen3.png, etc).
+
+## Cambiar el video de YouTube
+* Para cambiar el video solo es necesario cambiar el código /xYVDuS3nDoo de la URL, por el código del video en YouTube.
