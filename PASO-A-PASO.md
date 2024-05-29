@@ -2,6 +2,11 @@
 * Tener una cuenta de Github (https://www.github.com)
 * Tener una cuenta de TensorArt (https://tensor.art/)
 
+### Herramientas
+* Github (con github.dev)
+* TensorArt
+* RemoveBG
+
 # Editar index.html
 1. Cambiar los lugares donde dice "Argentum Online" por el nombre de tu server.
 2. Quitar los comentarios entre <!-- y !--> para las lineas que se quieran habilitar.
@@ -18,6 +23,7 @@
 * Click en Generar
 * Descargar la imagen elegida
 * Ir a https://www.remove.bg/ y remover el fondo.
+
 NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo manualmente en otro programa.
 
 ## Crear fondo de logo
@@ -49,3 +55,4 @@ NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo
 * Ir al repositorio -> "Settings"
 * Ir a la opción "Pages"
 * En "Branch" elegir "main" y click en Save.
+* OPCIONAL: Usar Github Actions en Source, con Static HTML de configuración.
