@@ -11,8 +11,8 @@
 
 ## Crear logo
 * Ir a al panel de creación de TensorArt
-* Seleccionar un modelo (* usar lighting)
-* Seleccionar aspecto Portrait
+* Seleccionar un modelo (* recomiendo usar lighting)
+* Seleccionar aspecto "Square" (cuadrado)
 * Agregar el prompt (ej. text "Argentum Online", logo, medieval)
 * Prompt negativo: watermark, no readeable
 * Click en Generar
@@ -23,7 +23,7 @@ NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo
 ## Crear fondo de logo
 * Ir a al panel de creación de TensorArt
 * Seleccionar un modelo a elección
-* Seleccionar aspecto "Landscape"
+* Seleccionar aspecto "Landscape" (panoramico)
 * Agregar el prompt (ej. castillo epico)
 * Prompt negativo: watermark
 * Click en Generar
@@ -31,7 +31,7 @@ NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo
 ## Crear fondo para la pagina
 * Ir a al panel de creación de TensorArt
 * Seleccionar un modelo a elección
-* Seleccionar aspecto "Portrait"
+* Seleccionar aspecto "Portrait" (alargado)
 * Agregar el prompt (ej. castillo epico)
 * Prompt negativo: watermark
 * Click en Generar
