@@ -43,3 +43,9 @@ NOTA: Puede costar, si el texto no queda lo suficiente bien, habrá que editarlo
 
 ## Cambiar el video de YouTube
 * Para cambiar el video solo es necesario cambiar el código /xYVDuS3nDoo de la URL, por el código del video en YouTube.
+
+# Como hostear la página en Github
+* Teniendo el repositorio editando y listo para publicar en github.
+* Ir al repositorio -> "Settings"
+* Ir a la opción "Pages"
+* En "Branch" elegir "main" y click en Save.
