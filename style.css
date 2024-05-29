@@ -63,21 +63,39 @@ header .descargas a {
     transition: background-color 0.3s ease;
 }
 
-header .descargas .descarga {
+header .descargas .btn-azul {
     background-color: #007bff;
     color: white;
 }
 
-header .descargas .descarga:hover {
+header .descargas .btn-azul:hover {
     background-color: #0056b3;
 }
 
-header .descargas .redes {
+header .descargas .btn-rojo {
+    background-color: #ff0004;
+    color: white;
+}
+
+header .descargas .btn-rojo:hover {
+    background-color: #b30004;
+}
+
+header .descargas .btn-verde {
+    background-color: #029300;
+    color: white;
+}
+
+header .descargas .btn-verde:hover {
+    background-color: #006b00;
+}
+
+header .descargas .btn-violeta {
     background-color: #7b00ff;
     color: white;
 }
 
-header .descargas .redes:hover {
+header .descargas .btn-violeta:hover {
     background-color: #5c00b3;
 }
 
